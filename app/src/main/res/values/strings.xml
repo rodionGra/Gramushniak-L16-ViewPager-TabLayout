@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">8.AcdHmwViewPagerAndTabLayout</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="population">Population: %1$d</string>
+    <string name="area">Area: %1$d</string>
+    <string name="population_density">Population density: %1$.2f</string>
+</resources>

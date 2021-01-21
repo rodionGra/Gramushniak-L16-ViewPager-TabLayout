@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".CountryInfoFragment"
+    android:background="#f2f278">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_country_name"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        tools:text="United Kingdom"
+        android:textColor="@color/black"/>
+
+    <!--320 * 160-->
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_marginTop="16dp"
+        android:id="@+id/image_view_flag"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/united_kingdom_flag"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_population"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="24dp"
+        android:textSize="28sp"
+        tools:text="Population: 59_000_000"
+        android:textColor="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_area"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="24dp"
+        android:textSize="28sp"
+        tools:text="Area: 244_100"
+        android:textColor="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_population_density"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="24dp"
+        android:textSize="28sp"
+        tools:text="Population density: 240.0"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
