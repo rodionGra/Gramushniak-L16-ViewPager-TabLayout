@@ -6,21 +6,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".CountryInfoFragment"
-    android:background="#f2f278">
+    android:background="@color/fragment_country_info_background">
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tv_country_name"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/fragment_country_info_tv_title_marginTop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textSize="40sp"
+        android:textSize="@dimen/fragment_country_info_title_textSize"
         tools:text="United Kingdom"
         android:textColor="@color/black"/>
 
     <!--320 * 160-->
     <androidx.appcompat.widget.AppCompatImageView
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/fragment_conuntry_info_iv_flag_marginTop"
         android:id="@+id/image_view_flag"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
@@ -33,30 +33,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
-        android:layout_marginStart="24dp"
-        android:textSize="28sp"
+        android:layout_marginStart="@dimen/fragment_country_info_tv_details_marginStart"
+        android:textSize="@dimen/fragment_country_info_tv_textSize"
         tools:text="Population: 59_000_000"
         android:textColor="@color/black"/>
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tv_area"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/fragment_country_info_tv_details_marginTop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
-        android:layout_marginStart="24dp"
-        android:textSize="28sp"
+        android:layout_marginStart="@dimen/fragment_country_info_tv_details_marginStart"
+        android:textSize="@dimen/fragment_country_info_tv_textSize"
         tools:text="Area: 244_100"
         android:textColor="@color/black"/>
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tv_population_density"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/fragment_country_info_tv_details_marginTop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
-        android:layout_marginStart="24dp"
-        android:textSize="28sp"
+        android:layout_marginStart="@dimen/fragment_country_info_tv_details_marginStart"
+        android:textSize="@dimen/fragment_country_info_tv_textSize"
         tools:text="Population density: 240.0"
         android:textColor="@color/black"/>
 

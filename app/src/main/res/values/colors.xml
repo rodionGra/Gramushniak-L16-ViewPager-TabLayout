@@ -11,4 +11,5 @@
     <color name="blue">#025de1</color>
     <color name="orange">	#fa6938</color>
     <color name="lite_orange">#f7a655</color>
+    <color name="fragment_country_info_background">#f2f278</color>
 </resources>

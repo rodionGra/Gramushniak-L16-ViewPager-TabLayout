@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fragment_country_info_title_textSize">40sp</dimen>
+    <dimen name="fragment_conuntry_info_iv_flag_marginTop">16dp</dimen>
+    <dimen name="fragment_country_info_tv_textSize">28sp</dimen>
+    <dimen name="fragment_country_info_tv_details_marginStart">24dp</dimen>
+    <dimen name="fragment_country_info_tv_details_marginTop">16dp</dimen>
+    <dimen name="fragment_country_info_tv_title_marginTop">16dp</dimen>
+</resources>
